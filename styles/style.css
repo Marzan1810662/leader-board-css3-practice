@@ -5,6 +5,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin:0;
 }
 main{
     display: flex;
@@ -23,7 +24,41 @@ hr{
     border: 1px solid #D1D1D1; 
     margin-bottom: 27px;
 }
+/* navigation bar style  */
+nav{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 350px;
+    height: 95px;
+}    
+nav span{
+    display: flex;
+    align-items: center;
+}
+.left-nav-span a{
+    font-weight: 500;
+    font-size: 24px;
+}
+.right-nav-span{
+    font-weight: 400;
+    font-size: 16px;
+}
+nav span a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
 
+#icon{
+    width: 40.42px;
+    height: 51px;
+}
+#profile-img{
+    width: 51px;
+    height: 51px;
+}
 /* top players style  */
 .section-title{
     color: #562EFF;
@@ -94,9 +129,11 @@ hr{
     grid-column-gap:24px;
 }
 .course{
-    width:253px;
-    height: 270px;
+    /* width:253px;
+    height: 270px; */
     border-radius: 10px;
+    box-shadow: 3px 2px 8px #f0eeee;
+    padding: 15px;
 }
 .course .course-banner img{
     width: 224px;
@@ -115,6 +152,15 @@ hr{
 }
 .fa-star.empty{
     color:#AEAEAE;
+}
+.course-info span{
+    color:#A2A2A2;
+}
+.course-duration{
+    padding: 0 5px;
+    color: #ED6B4F;
+    background-color: #FEE5DF;
+    border-radius: 14.6913px;
 }
  /*-----------------------------
   Media Queries

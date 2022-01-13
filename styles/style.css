@@ -40,17 +40,18 @@ nav span{
 .left-nav-span a{
     font-weight: 500;
     font-size: 24px;
+    /* margin-right: 20px; */
 }
-.right-nav-span{
+.right-nav-span a{
     font-weight: 400;
     font-size: 16px;
+    /* margin-left: 20px; */
 }
 nav span a{
     text-decoration: none;
     color: white;
     margin-right: 20px;
 }
-
 #icon{
     width: 40.42px;
     height: 51px;
@@ -167,6 +168,17 @@ nav span a{
    ------------------------ */
    /* Mobile Devices */
 @media only screen and (max-width:688px) {
+    /* html, body{
+        width:100%;
+        overflow-x:hidden;
+        } */
+    nav{
+        padding: 0;
+    }
+    nav span {
+
+        justify-content: center;
+    }
     .container{
         width: 100%;
     }
@@ -179,6 +191,16 @@ nav span a{
   /* Tablet Devices    */
 }
 @media only screen and (min-width: 688px) and (max-width:992px) {
+    html, body{
+        width:100%;
+        overflow-x:hidden;
+     }
+     nav{
+        padding: 0;
+    }
+    nav span {
+         justify-content: center;
+     }
     .container{
         width: 100%;
     }
